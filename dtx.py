@@ -19,7 +19,7 @@ def load_yaml_config(yaml_config_file):
 def main():
     parser = argparse.ArgumentParser(description="ETL Script")
 
-    parser.add_argument("--mappings", default="mappings.yaml", help="YAML configuration file for mappings")
+    parser.add_argument("--mappings", default="EXAMPLE-mappings.yaml", help="YAML configuration file for mappings")
     parser.add_argument("--source", default="EXAMPLE-source.csv", help="Source CSV file")
     parser.add_argument("--output", default="output.csv", help="Output CSV file")
 
