@@ -11,6 +11,7 @@ This script performs an ETL (Extract, Transform, Load) process on a CSV file usi
 
 1. Clone the repository.
 2. Install the required packages by running the following command:
+    `pip install -r requirements.txt`
 ## Usage
 
 Run the script with the following command:
